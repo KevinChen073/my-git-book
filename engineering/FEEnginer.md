@@ -18,6 +18,11 @@
 - nw.js或者electron，给你创建一个跨前后端运行环境的工具
 - bash：bash脚本，熟练掌握如alias\select等最简易脚本
 
+### 依赖管理
+版本锁的重要性：防止修改小需求时，由于z位升级导致的不兼容报错。
+npm lock: https://www.zhihu.com/question/62331583
+yarn管理：https://lzw.me/a/yarn.html
+ata依赖锁：https://www.atatech.org/articles/106801#3
 
 ### 详解
 #### 油猴
