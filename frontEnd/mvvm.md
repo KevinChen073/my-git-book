@@ -38,6 +38,9 @@
 订阅-发布模式，给输入控件绑定事件: 解决从view -> data
 https://www.cnblogs.com/libin-1/p/6893712.html
 
+#### Vue2
+数据绑定方式没变，但是加上了React的vdom思路使得数据diff性能更高
+另外，取消了如$boardcase\$dispatch等跨组件调用的能力。取而代之的是建议使用事件管理器和单项数据流层redux的思路
 
 #### React 
 单向数据流动，React结合了脏检查以及固定接口改变，只有在调用固定接口setState的时候，会对整体进行一次渲染。但是这个渲染又是在vdom层面经过了一次diff的，只有对真正需要改动的地方才会操作html DOM。
