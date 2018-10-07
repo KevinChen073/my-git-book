@@ -7,6 +7,8 @@
 - 执行系统能力
 - 文件能力
 - log
+- email
+- 解析excel等文件
 
 
 ## process
@@ -90,3 +92,32 @@ if (osPlatform === WINDOWS_PLATFORM) {
 
 ## question
 用于进行基本的人机交互。（基于process.stdin和stdout）
+
+[readline-sync](https://www.npmjs.com/package/readline-sync)
+- keyIn
+- keyInSelect
+- keyInYN
+- question
+``` javascript
+var readlineSync = require('readline-sync');
+```
+
+## email
+nodemailer
+
+## 解析Excel的csv文件
+`csv-parse`库
+- 由于csv文件的格式为：因此可以以行列的方式解析，最后库会返回二维数组
+- 由于csv文件有可能体积极大，因此用流的方式读取和写入是最好的
+```
+Check Mate Chess,chess,
+Deluxe Backgammon,backgammon,
+Chaps of Checkers,draughts,
+Wild East Poker,poker,
+Kent World Poker,poker,
+Drake Draughts,draughts,
+Golden Backgammon,backgammon,
+BluffMe Poker,poker,
+Challenge of Chess,chess,
+SpinMe Slots,slots,
+```
