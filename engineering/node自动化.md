@@ -1,5 +1,7 @@
 ## node自动化相关
 
+测试的代码仓库如下：https://github.com/KevinChen073/myTestWebpack
+
 - 流
 - commandar
 - process
@@ -64,6 +66,14 @@ if (osPlatform === WINDOWS_PLATFORM) {
 }
 ```
 
+#### opn库
+跨平台的node-open库:https://www.npmjs.com/package/opn
+``` javascript
+const opn = require('opn');
+let url = 'http://sindresorhus.com';
+opn(url, {app: 'google chrome'});
+```
+
 ## FileSystem
 
 - path
@@ -71,6 +81,24 @@ if (osPlatform === WINDOWS_PLATFORM) {
 
 #### fs
 用fs的模块的readFile\writeFile等方法读取或者写入文本
+
+#### fse
+[fs-extra](https://www.npmjs.com/package/fs-extra)，扩展了相应的[fs操作](https://www.jianshu.com/p/d6990a03d610)
+- copy
+- emptyDir
+- ensureFile
+- ensureDir
+- ensureLink
+- ensureSymlink
+- mkdirp
+- mkdirs
+- move
+- outputFile
+- outputJson
+- pathExists
+- readJson
+- remove
+- writeJson
 
 #### path
 用path模块来处理路径方面的问题，如合并`path.join()`，
@@ -90,23 +118,11 @@ if (osPlatform === WINDOWS_PLATFORM) {
 基本log不提。
 扩展能力包括`colors`模块，允许log有更多的颜色。引入后直接调用string的子方法即可
 
-## question
-用于进行基本的人机交互。（基于process.stdin和stdout）
-
-[readline-sync](https://www.npmjs.com/package/readline-sync)
-- keyIn
-- keyInSelect
-- keyInYN
-- question
-``` javascript
-var readlineSync = require('readline-sync');
-```
-
 ## email
 nodemailer
 
 ## 解析Excel的csv文件
-`csv-parse`库
+[`csv-parse`库](https://csv.js.org/parse/api/)
 - 由于csv文件的格式为：因此可以以行列的方式解析，最后库会返回二维数组
 - 由于csv文件有可能体积极大，因此用流的方式读取和写入是最好的
 ```
@@ -121,3 +137,8 @@ BluffMe Poker,poker,
 Challenge of Chess,chess,
 SpinMe Slots,slots,
 ```
+
+[`stream-transform`库](https://www.npmjs.com/package/stream-transform)
+- 用于批处理流
+
+`pipe()`函数。流都有的函数，用于把流传给下一个控制器

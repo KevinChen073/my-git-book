@@ -14,5 +14,11 @@
 - remote -v：查询远端仓库地址
 - config -l:查询此git仓库的相关配置
 
+修改当前的git仓库配置：
+```
+git config --add user.name xxx
+git config --add user.email xxx@yy.com
+```
+
 ### git状态
 - (git status)[https://www.yiibai.com/git/git_status.html] 管理当前项目git状态
