@@ -18,3 +18,10 @@
 
 ### 测试类工具
 - 
+
+### 文档
+- jsdoc\jsdoc2md
+
+### 检查型工具
+- eslint、jslint等
+https://segmentfault.com/a/1190000010264410
