@@ -20,7 +20,7 @@
 - 
 
 ### 文档
-- jsdoc\jsdoc2md
+- jsdoc\jsdoc2md:http://www.css88.com/doc/jsdoc/index.html
 
 ### 检查型工具
 - eslint、jslint等
