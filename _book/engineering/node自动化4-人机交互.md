@@ -75,3 +75,4 @@ function game(ticketId, otherMsg, options) {
 - yo：通过Inquirer.js这个库来实现，点击传送门
 实现这种：
 ![](https://segmentfault.com/img/bVCJ0f)
+see: https://www.jianshu.com/p/db8294cfa2f7
