@@ -28,3 +28,7 @@ A:每次都是一个新的对象，保证内部修改state的时候不会影响�
 
 Q:reducer的概念
 A：因为redux中，UI和逻辑完全分离，则UI不需要关注state。因此有一个stateProps的概念（即每次变化，在connect中都把state和props根据一定计算返回成一个数据），以props的方式传给UI组件
+
+## redux-saga和thunk的差别
+参考文章：https://www.jianshu.com/p/ec2d93cf70b3
+saga使用put和call来做一个，Promise版的dispatch和fetch（并且在结束后调用下一个next）
