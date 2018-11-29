@@ -41,3 +41,4 @@ var all = Q.async(function* () {
 
 all();
 ```
+### babel支持
