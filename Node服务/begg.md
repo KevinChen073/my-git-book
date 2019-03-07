@@ -24,3 +24,5 @@ koa和express的对比：https://juejin.im/entry/58a11f61128fe1005823a257
 ### begg日志和调试
 - 日志 -> logger模块，会根据config配置打到不同地方，但为什么搜索不到啊……
 - 调试 -> egg-bin debug或者是直接使用debug这个npm模块。两者的优劣(https://www.npmjs.com/package/debug)
+- console.log ，不提了
+- vscode的debug方式

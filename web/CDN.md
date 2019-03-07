@@ -2,6 +2,7 @@
 参考：https://www.jianshu.com/p/b8183c8d04e2
 查询：http://tool.chinaz.com/nslookup/
 域名 -> 对应的cname或者A记录 -> 到哪一个源站
+一般查询就到DNS服务器，但阿里内部有自己的顶级域名DNS服务群，因此嘛。内部服务内部查询。根域名服务器 -> 顶级域名服务器（https://zhuanlan.zhihu.com/p/31568450）
 
 ## 一些经历
 - CDN有问题导致需要切换域名CName从CDN到源站
