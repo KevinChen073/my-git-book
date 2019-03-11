@@ -21,7 +21,8 @@
 - vue: data
 
 ### 钩子hook
-解决复用、层层嵌套的问题。（https://segmentfault.com/a/1190000016953180）（https://zhuanlan.zhihu.com/p/50274018）
+参考示例：https://github.com/streamich/react-use
+解决复用、层层嵌套的问题，改为函数组件做有状态的事情。（https://segmentfault.com/a/1190000016953180）（https://zhuanlan.zhihu.com/p/50274018）
 - vue的hook
 - react的hook（https://www.cnblogs.com/qcloud1001/p/9930781.html）
 
