@@ -1,3 +1,11 @@
+<!--
+ * @Author: 星啸(陈远宏)
+ * @Date: 2020-12-15 14:32:55
+ * @LastEditTime: 2020-12-24 00:33:52
+ * @LastEditors: 星啸(陈远宏)
+ * @Description: 
+ * @FilePath: /my-git-book/frontEnd/index.md
+-->
 工程方面的思考
 
 ### 脚手架
@@ -28,3 +36,9 @@
 ### 监控体系
 - 参考阿里集团的aplus、UT、黄金令箭
 - google的assist
+
+### 编程思路
+- 函数式编程
+- 面向对象
+- 生命周期 & hooks
+- 反应式编程

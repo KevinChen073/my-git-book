@@ -1,3 +1,11 @@
+<!--
+ * @Author: 星啸(陈远宏)
+ * @Date: 2020-12-15 14:32:55
+ * @LastEditTime: 2020-12-24 00:44:15
+ * @LastEditors: 星啸(陈远宏)
+ * @Description: 
+ * @FilePath: /my-git-book/frontEnd/mvvm.md
+-->
 
 列举下现代常见的MVVM框架及其发展编年史
 
@@ -42,3 +50,10 @@ https://www.cnblogs.com/libin-1/p/6893712.html
 
 #### React 
 单向数据流动，React结合了脏检查以及固定接口改变，只有在调用固定接口setState的时候，会对整体进行一次渲染。但是这个渲染又是在vdom层面经过了一次diff的，只有对真正需要改动的地方才会操作html DOM。
+
+#### 反应式编程
+在服务器上对数据变化立即反馈，提高CPU的使用。创建一个可观测的对象。当对象变化时，立即触发相关函数。
+```javascript 
+var observer=Rx.Observer.create({a:'b',c:"d"});
+observable.subscribe(observer, ()=>{});
+```

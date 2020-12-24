@@ -1,3 +1,11 @@
+<!--
+ * @Author: 星啸(陈远宏)
+ * @Date: 2020-12-15 14:32:55
+ * @LastEditTime: 2020-12-24 00:14:12
+ * @LastEditors: 星啸(陈远宏)
+ * @Description: 
+ * @FilePath: /my-git-book/frontEnd/javascript.md
+-->
 关于JS语言集的问题
 
 ### ES5
@@ -38,7 +46,15 @@ k.d()
 
 - Proxy代理
 - let\const等声明
+- 新的类型，如Set、Map等。Set是无重复对象的Array，更像是一颗树的实现，而Array是队列。Map是键值对，只是键不仅是stirng了，引用。
+
 
 ### ES7+
 generator
 async\await
+
+### ES2020
+- 可选链式，TS很像
+- Dynamic import。webpack5中有这个特性
+- globalThis。Node、Weex等非浏览器环境
+- bigInt。大数字
