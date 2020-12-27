@@ -1,7 +1,7 @@
 <!--
  * @Author: 星啸(陈远宏)
  * @Date: 2020-12-15 14:32:55
- * @LastEditTime: 2020-12-24 00:33:09
+ * @LastEditTime: 2020-12-24 12:43:24
  * @LastEditors: 星啸(陈远宏)
  * @Description: 
  * @FilePath: /my-git-book/frontEnd/react.md
@@ -51,3 +51,7 @@ function FollowBtn() {
 
 ### hook的实现
 数组实现
+useState可以理解为就是一个React维护的组件级别的Array和闭包。
+1. 每次setState，就是触发了对应的闭包，更新state的值
+2. 同时触发该组件的Render
+3. 组件内的State（数组内的State）按照数组顺序重新计算
